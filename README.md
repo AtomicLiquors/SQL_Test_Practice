@@ -21,3 +21,6 @@
   
 ### JOIN
 - [JOIN 키워드 쓰지 않고 JOIN하는 경우 - 추가바람]
+
+### Tip
+`>= AND =<`는 `BETWEEN AND`로도 표현 가능.
