@@ -34,6 +34,7 @@
 
 ## Oracle
 ### MYSQL과 대표적 차이점
+[문자열 연산](https://github.com/AtomicLiquors/SQL_Test_Practice/blob/main/string/ORACLE_COMPARISON.MD)
 [날짜 표현](https://github.com/AtomicLiquors/SQL_Test_Practice/blob/main/date/Oracle_Comparison.md)  
 [정규 표현식](https://github.com/AtomicLiquors/SQL_Test_Practice/blob/main/regex/Oracle_Comparison.MD)
 - IF 불허, CASE-WHEN만 사용 가능
