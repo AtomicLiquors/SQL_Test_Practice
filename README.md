@@ -28,4 +28,10 @@
 <br>
 
 ## Oracle
+### MYSQL과 대표적 차이점
+[정규 표현식](https://github.com/AtomicLiquors/SQL_Test_Practice/blob/main/regex/Oracle_Comparison.MD)
+
+<br>
+
+### TroubleShooting
 [그룹 함수](https://github.com/AtomicLiquors/SQL_Test_Practice/blob/main/group/Oracle.md)
