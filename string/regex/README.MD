@@ -25,6 +25,7 @@ SELECT * FROM products WHERE product_code REGEXP '[0-9]';  -- Rows with a digit 
 SELECT * FROM employees WHERE last_name REGEXP '(?i)john';  -- Match 'john', 'John', etc.
 ```
 
+<br>
 
 ## Oracle REGEXP Examples
 ### Simple match:
