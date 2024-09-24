@@ -24,3 +24,8 @@
 
 ### Tip
 `>= AND =<`는 `BETWEEN AND`로도 표현 가능.
+
+<br>
+
+## Oracle
+[그룹 함수](https://github.com/AtomicLiquors/SQL_Test_Practice/blob/main/group/Oracle.md)
