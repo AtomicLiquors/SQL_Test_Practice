@@ -23,7 +23,12 @@
 - [JOIN 키워드 쓰지 않고 JOIN하는 경우 - 추가바람]
 
 ### Tip
-`>= AND =<`는 `BETWEEN AND`로도 표현 가능.
+- `>= AND =<`는 `BETWEEN AND`로도 표현 가능.
+- ORDER BY : 컬럼 번호로 정렬 기준 지정하기
+    ```SQL
+      ORDER BY 2 DESC, 1 DESC
+    ```
+
 
 <br>
 
