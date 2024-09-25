@@ -24,6 +24,21 @@
 
 ### Tip
 - `>= AND =<`는 `BETWEEN AND`로도 표현 가능.
+- 중첩 IF문은 CASE WHEN으로 표현하는 편이 낫다.
+    ```SQL
+      IF(
+        OUT_DATE IS NULL, 
+       '출고미정', 
+       IF(OUT_DATE <= '2022-05-01', '출고완료', '출고대기')
+      ) AS 출고여부
+    ```
+    ```SQL
+      CASE
+        WHEN OUT_DATE IS NULL THEN '출고미정' 
+        WHEN DATE_FORMAT(OUT_DATE,'%Y-%m-%d') <= '2022-05-01' THEN '출고완료'
+        ELSE '출고대기'
+      END 출고여부 
+    ```
 - ORDER BY : 컬럼 번호로 정렬 기준 지정하기
     ```SQL
       ORDER BY 2 DESC, 1 DESC
