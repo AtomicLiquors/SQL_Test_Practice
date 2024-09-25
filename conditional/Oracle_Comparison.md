@@ -23,4 +23,5 @@ IFNULL(expression, replacement_value)
 #### [ORACLE]
 ```sql
 NVL(expression, replacement_value)
+// Null Value Logic
 ```
