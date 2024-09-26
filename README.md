@@ -18,9 +18,13 @@
 
 ### GROUP BY
 - [문자열 일부로 그룹화](https://github.com/TPA-ThreeProblemsAday/TPA_CHB/blob/main/hyobin/MYSQL/group/programmers_131529.sql)
+- [숫자 범위로 그룹화](https://coding-su.tistory.com/76)
   
 ### JOIN
 - [JOIN 키워드 쓰지 않고 JOIN하는 경우 - 추가바람]
+
+### ORDER BY
+- [문자열 정렬이 아닌 숫자 정렬](https://github.com/AtomicLiquors/SQL_Test_Practice/blob/main/order/Programmers_284531.sql)
 
 ### Tip
 - `>= AND =<`는 `BETWEEN AND`로도 표현 가능.
