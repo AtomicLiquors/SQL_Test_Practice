@@ -17,6 +17,20 @@
 - [원본 문자열 그룹으로 분류해서 순번 지정하기](https://github.com/AtomicLiquors/TPA_CHB/blob/main/hyobin/MYSQL/string/regex/programmers_164670.sql)
 
 ### GROUP BY
+WHERE는 그룹화되기 전에 데이터를 필터링할 때 사용한다.  
+  ```sql
+    SELECT department, SUM(salary)
+    FROM employees
+    WHERE hire_date > '2020-01-01'
+    GROUP BY department;
+  ```
+HAVING은 그룹화된 결과 데이터를 필터링할 때 사용한다.
+  ```sql
+    SELECT department, SUM(salary)
+    FROM employees
+    GROUP BY department
+    HAVING SUM(salary) > 100000;
+  ```
 - [문자열 일부로 그룹화](https://github.com/TPA-ThreeProblemsAday/TPA_CHB/blob/main/hyobin/MYSQL/group/programmers_131529.sql)
 - [숫자 범위로 그룹화](https://coding-su.tistory.com/76)
 - [그룹 내에서 최댓값 찾기](https://chatgpt.com/c/67062448-07b0-800c-9529-c4f2ca3e7ffb)
