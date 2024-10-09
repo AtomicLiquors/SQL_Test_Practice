@@ -19,6 +19,7 @@
 ### GROUP BY
 - [문자열 일부로 그룹화](https://github.com/TPA-ThreeProblemsAday/TPA_CHB/blob/main/hyobin/MYSQL/group/programmers_131529.sql)
 - [숫자 범위로 그룹화](https://coding-su.tistory.com/76)
+- [그룹 내에서 최댓값 찾기](https://chatgpt.com/c/67062448-07b0-800c-9529-c4f2ca3e7ffb)
   
 ### JOIN
 - [JOIN 키워드 쓰지 않고 JOIN하는 경우 - 추가바람]
