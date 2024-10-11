@@ -20,6 +20,16 @@
 
 <BR>
 
+### COUNT-IF
+- COUNTIF는 존재하지 않으며 count 안에다가 if를 써 준다.
+- 이 때 조건을 만족하지 않는 레코드는 0으로 처리하는 게 아니라 null로 처리해야 한다. 그렇지 않으면 갯수 안에 포함된다.
+```
+COUNT(
+  IF(START_DATE <= '2022-10-16'
+  AND
+  END_DATE >= '2022-10-16', 1, NULL))
+```
+
 ### 정규 표현식
 - [정규 표현식 와일드카드](https://github.com/TPA-ThreeProblemsAday/TPA_CHB/blob/main/hyobin/MYSQL/string/regex/programmers_59045.sql)
 - [원본 문자열 그룹으로 분류해서 순번 지정하기](https://github.com/AtomicLiquors/TPA_CHB/blob/main/hyobin/MYSQL/string/regex/programmers_164670.sql)
