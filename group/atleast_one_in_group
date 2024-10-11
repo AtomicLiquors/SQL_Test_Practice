@@ -1,0 +1,21 @@
+### Group By : 그룹 내에 조건에 해당하는 레코드가 하나라도 있는 경우
+
+SELECT
+    CAR_ID,
+    (CASE
+        WHEN
+            COUNT(
+                IF(START_DATE <= '2022-10-16'
+                AND
+                END_DATE >= '2022-10-16', 1, NULL)) > 0
+        THEN 
+            '대여중'
+        ELSE
+            '대여 가능'
+    END) AVAILABILITY
+FROM
+   CAR_RENTAL_COMPANY_RENTAL_HISTORY 
+GROUP BY
+    CAR_ID
+ORDER BY
+    CAR_ID DESC
