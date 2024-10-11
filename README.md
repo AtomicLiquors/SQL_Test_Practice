@@ -2,19 +2,29 @@
 ### 여집합
 - [programmers_59042](https://github.com/TPA-ThreeProblemsAday/TPA_CHB/blob/main/hyobin/MYSQL/join/programmers_59042.sql)
 
+<BR>
+
 ### DISTINCT : 조건을 여러 개 충족해도 하나의 레코드만
 - [programmers_276034](https://github.com/TPA-ThreeProblemsAday/TPA_CHB/blob/main/hyobin/MYSQL/distinct/programmers_276034.sql)
 - [programmers_276035](https://github.com/AtomicLiquors/TPA_CHB/blob/main/hyobin/MYSQL/join/programmers_276035.sql)
 
+<BR>
+
 ### CASE WHEN 사용법
 - [programmers_164672](https://github.com/TPA-ThreeProblemsAday/TPA_CHB/tree/main/hyobin/MYSQL/string)
+
+<BR>
 
 ### 문자열
 - [일반 문자열 와일드카드](https://github.com/TPA-ThreeProblemsAday/TPA_CHB/blob/main/hyobin/MYSQL/string/programmers_157343.sql)
 
+<BR>
+
 ### 정규 표현식
 - [정규 표현식 와일드카드](https://github.com/TPA-ThreeProblemsAday/TPA_CHB/blob/main/hyobin/MYSQL/string/regex/programmers_59045.sql)
 - [원본 문자열 그룹으로 분류해서 순번 지정하기](https://github.com/AtomicLiquors/TPA_CHB/blob/main/hyobin/MYSQL/string/regex/programmers_164670.sql)
+
+<BR>
 
 ### GROUP BY
 WHERE는 그룹화되기 전에 데이터를 필터링할 때 사용한다.  
@@ -35,11 +45,17 @@ HAVING은 그룹화된 결과 데이터를 필터링할 때 사용한다.
 - [숫자 범위로 그룹화](https://coding-su.tistory.com/76)
 - [그룹 내에서 최댓값 찾기](https://chatgpt.com/c/67062448-07b0-800c-9529-c4f2ca3e7ffb)
   
+<BR>
+
 ### JOIN
 - [JOIN 키워드 쓰지 않고 JOIN하는 경우 - 추가바람]
 
+<BR>
+
 ### ORDER BY
 - [문자열 정렬이 아닌 숫자 정렬](https://github.com/AtomicLiquors/SQL_Test_Practice/blob/main/order/Programmers_284531.sql)
+
+<BR>
 
 ### Tip
 - `>= AND =<`는 `BETWEEN AND`로도 표현 가능.
