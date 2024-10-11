@@ -55,6 +55,35 @@ HAVING은 그룹화된 결과 데이터를 필터링할 때 사용한다.
 ### ORDER BY
 - [문자열 정렬이 아닌 숫자 정렬](https://github.com/AtomicLiquors/SQL_Test_Practice/blob/main/order/Programmers_284531.sql)
 
+
+<BR>
+
+### IN
+(value1, value2, value3)과 같은 배열 형태 자료뿐만 아니라,  
+서브쿼리 결과 테이블에 대해서도 사용할 수 있다.
+
+예시 : 다음과 같은 SQL문과 결과 테이블에 대해
+```sql
+`SELECT product_id FROM orders WHERE customer_id = 123`
+```
+
+| product_id |
+|------------|
+| 101        |
+| 204        |
+| 356        |
+
+<br>
+
+찾고자 하는 product_id가 이 안에 있는지 조회할 수 있다는 것.
+```sql
+SELECT product_id, product_name
+FROM products
+WHERE product_id IN (SELECT product_id
+                    FROM orders
+                    WHERE customer_id = 123);
+```
+
 <BR>
 
 ### Tip
