@@ -63,6 +63,23 @@ HAVING은 그룹화된 결과 데이터를 필터링할 때 사용한다.
       ORDER BY 2 DESC, 1 DESC
     ```
 
+<br>
+
+### WITH - AS
+서브쿼리 등을 재사용할 수 있는 모양이다.
+```SQL
+WITH MEMBER_RANK AS (
+    SELECT MEMBER_ID, RANK() OVER (ORDER BY COUNT(MEMBER_ID) DESC) RNK
+    FROM REST_REVIEW
+    GROUP BY MEMBER_ID 
+)
+SELECT MEMBER_NAME,	REVIEW_TEXT, DATE_FORMAT(REVIEW_DATE, '%Y-%m-%d') REVIEW_DATE
+FROM MEMBER_RANK RA JOIN MEMBER_PROFILE P 
+ON RA.MEMBER_ID = P.MEMBER_ID 
+JOIN REST_REVIEW R ON R.MEMBER_ID = P.MEMBER_ID 
+WHERE RA.RNK = 1
+ORDER BY 3, 2
+```
 
 <br>
 
@@ -78,3 +95,4 @@ HAVING은 그룹화된 결과 데이터를 필터링할 때 사용한다.
 
 ### TroubleShooting
 [그룹 함수](https://github.com/AtomicLiquors/SQL_Test_Practice/blob/main/group/Oracle.md)
+
