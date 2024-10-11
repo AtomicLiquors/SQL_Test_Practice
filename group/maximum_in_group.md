@@ -1,0 +1,36 @@
+### Group By - 그룹 내 최댓값 찾기
+
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/131116
+
+1)
+```sql
+SELECT 
+    CATEGORY, PRICE, PRODUCT_NAME
+FROM 
+    FOOD_PRODUCT P1
+WHERE 
+    PRICE = (
+        SELECT MAX(PRICE) 
+        FROM FOOD_PRODUCT P2 
+        WHERE P2.CATEGORY = P1.CATEGORY
+    )
+    AND 
+    CATEGORY IN ('과자', '국', '김치', '식용유')
+ORDER BY
+    PRICE DESC
+```
+
+
+2)
+```sql
+WITH CATEGORY_MAX AS (
+    SELECT CATEGORY, MAX(PRICE) MAX_PRICE
+    FROM FOOD_PRODUCT
+    GROUP BY CATEGORY
+)
+SELECT P.CATEGORY, M.MAX_PRICE,	P.PRODUCT_NAME
+FROM FOOD_PRODUCT P JOIN CATEGORY_MAX M 
+ON P.CATEGORY = M.CATEGORY AND P.PRICE = M.MAX_PRICE
+WHERE P.CATEGORY IN ('과자', '국', '김치', '식용유')
+ORDER BY 2 DESC
+```
