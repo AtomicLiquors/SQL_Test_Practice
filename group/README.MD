@@ -1,6 +1,9 @@
 - [문자열 일부로 그룹화](https://github.com/TPA-ThreeProblemsAday/TPA_CHB/blob/main/hyobin/MYSQL/group/programmers_131529.sql)
 - [숫자 범위로 그룹화](https://coding-su.tistory.com/76)
 
+- [그룹 내 최댓값](https://github.com/AtomicLiquors/SQL_Test_Practice/blob/main/group/maximum_in_group.md)
+- [조건에 하나라도 해당하는 그룹](https://github.com/AtomicLiquors/SQL_Test_Practice/blob/main/group/atleast_one_in_group)
+
 <BR>
 
 ### not functionally dependent on columns in GROUP BY clause
