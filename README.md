@@ -97,10 +97,7 @@ WHERE product_id IN (SELECT product_id
 <br>
 
 ### 임의의 데이터세트 생성
-```sql
-SELECT *
-FROM (VALUES (1), (2), (3), (4), (5)) AS HOUR_TABLE(HOUR);
-```
+
 ```sql
 SELECT 1 AS HOUR
 UNION
