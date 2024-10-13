@@ -94,6 +94,37 @@ WHERE product_id IN (SELECT product_id
                     WHERE customer_id = 123);
 ```
 
+<br>
+
+### 임의의 데이터세트 생성
+```sql
+SELECT *
+FROM (VALUES (1), (2), (3), (4), (5)) AS HOUR_TABLE(HOUR);
+```
+```sql
+SELECT 1 AS HOUR
+UNION
+SELECT 2 AS HOUR
+UNION
+SELECT 3 AS HOUR
+UNION
+SELECT 4 AS HOUR
+UNION
+SELECT 5 AS HOUR;
+```
+
+### RECURSIVE 사용법
+```sql
+with recursive time
+as (
+    select 0 as hour
+    union all
+    select hour + 1
+    from time
+    where hour < 23
+)
+```
+
 <BR>
 
 ### Tip
