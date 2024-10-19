@@ -1,4 +1,4 @@
-### 분기 추출
+### 'QUARTER' 키워드로 분기 추출
 BEFORE)
 ```SQL
 SELECT 
