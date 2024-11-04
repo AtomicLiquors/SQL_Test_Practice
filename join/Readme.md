@@ -33,7 +33,7 @@ RIGHT JOIN TableB B ON
 A.key = B.key
 ```
 
-합집합 조인
+### 합집합 조인
 
 두 개의 테이블 모든 행
 
@@ -41,4 +41,11 @@ A.key = B.key
 SELECT * FROM TableA A
 **FULL OUTER** JOIN TableB B ON 
 A.key = B.key
+```
+
+### JOIN 키워드 없이 JOIN
+
+```sql
+SELECT 성명, 나이, 직책 FROM 사원, 연락처
+WHERE 사원.사번 = 연락처.사번 AND 연락처.성별 = "여"
 ```
