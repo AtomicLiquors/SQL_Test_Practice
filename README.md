@@ -124,6 +124,14 @@ as (
 
 <BR>
 
+### 소수점 버림
+```
+FLOOR()
+```
+
+
+<BR>
+
 ### Tip
 - `>= AND =<`는 `BETWEEN AND`로도 표현 가능.
 - 중첩 IF문은 CASE WHEN으로 표현하는 편이 낫다.
