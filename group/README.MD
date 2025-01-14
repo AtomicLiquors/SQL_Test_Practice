@@ -43,3 +43,16 @@ GROUP BY
 ORDER BY 
     1 DESC
 ```
+
+### GROUP BY 1로 그룹 조건 재사용
+```
+SELECT
+    TRUNCATE(price, -4) price_group,
+    COUNT(product_id) products
+FROM
+    product
+GROUP BY
+    1
+ORDER BY
+    1;
+```
