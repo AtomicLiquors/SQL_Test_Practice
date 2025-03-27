@@ -69,12 +69,12 @@ HAVING은 그룹화된 결과 데이터를 필터링할 때 사용한다.
 <BR>
 
 ### LIKE
-[링크](https://github.com/AtomicLiquors/SQL_Test_Practice/blob/main/like.md)
+[링크](https://github.com/AtomicLiquors/SQL_Test_Practice/blob/main/LIKE.md)
 
 <BR>
 
 ### WITH AS
-[링크](https://github.com/AtomicLiquors/SQL_Test_Practice/blob/main/cte.md)
+[링크](https://github.com/AtomicLiquors/SQL_Test_Practice/blob/main/CTE.md)
 
 <BR>
 
