@@ -68,6 +68,16 @@ HAVING은 그룹화된 결과 데이터를 필터링할 때 사용한다.
 
 <BR>
 
+### LIKE
+[링크](https://github.com/AtomicLiquors/SQL_Test_Practice/blob/main/like.md)
+
+<BR>
+
+### WITH AS
+[링크](https://github.com/AtomicLiquors/SQL_Test_Practice/blob/main/cte.md)
+
+<BR>
+
 ### IN
 (value1, value2, value3)과 같은 배열 형태 자료뿐만 아니라,  
 서브쿼리 결과 테이블에 대해서도 사용할 수 있다.
