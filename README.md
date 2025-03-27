@@ -4,9 +4,12 @@
 
 <BR>
 
-### DISTINCT : 조건을 여러 개 충족해도 하나의 레코드만
-- [programmers_276034](https://github.com/TPA-ThreeProblemsAday/TPA_CHB/blob/main/hyobin/MYSQL/distinct/programmers_276034.sql)
-- [programmers_276035](https://github.com/AtomicLiquors/TPA_CHB/blob/main/hyobin/MYSQL/join/programmers_276035.sql)
+### DISTINCT
+- **조건을 여러 개 충족해도 하나의 레코드만**
+- -**중복되는 값(ID 등)을 하나씩만 표시하기**
+  - [programmers_276034](https://github.com/TPA-ThreeProblemsAday/TPA_CHB/blob/main/hyobin/MYSQL/distinct/programmers_276034.sql)
+  - [programmers_276035](https://github.com/AtomicLiquors/TPA_CHB/blob/main/hyobin/MYSQL/join/programmers_276035.sql)
+  - [programmers 131534](https://school.programmers.co.kr/learn/courses/30/lessons/131534)
 
 <BR>
 
