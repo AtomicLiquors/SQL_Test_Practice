@@ -2,6 +2,22 @@
 *Common Table Expression*  
 일시적으로 생성된 결과 집합을 쿼리에서 재사용할 수 있도록 한다.  
 
+```SQL
+WITH MEMBER_RANK AS (
+    SELECT MEMBER_ID, RANK() OVER (ORDER BY COUNT(MEMBER_ID) DESC) RNK
+    FROM REST_REVIEW
+    GROUP BY MEMBER_ID 
+)
+SELECT MEMBER_NAME,	REVIEW_TEXT, DATE_FORMAT(REVIEW_DATE, '%Y-%m-%d') REVIEW_DATE
+FROM MEMBER_RANK RA JOIN MEMBER_PROFILE P 
+ON RA.MEMBER_ID = P.MEMBER_ID 
+JOIN REST_REVIEW R ON R.MEMBER_ID = P.MEMBER_ID 
+WHERE RA.RNK = 1
+ORDER BY 3, 2
+```
+
+<br>
+
 ### 여러 개의 CTE를 선언할 경우
 여러 개의 CTE를 선언할 경우 첫 번째 WITH 키워드 이후에 쉼표(,)로 구분하여 나열해야 합니다. 
 ```mysql
