@@ -1,4 +1,8 @@
-### 'QUARTER' 키워드로 분기 추출
+### 날짜 형식 변경
+DATE_FORMAT(DATE, '%Y-%m-%d')
+
+
+### 분기 추출 : 'QUARTER'
 BEFORE)
 ```SQL
 SELECT 
