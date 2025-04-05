@@ -1,7 +1,6 @@
+## 그룹화
 - [문자열 일부로 그룹화](https://github.com/TPA-ThreeProblemsAday/TPA_CHB/blob/main/hyobin/MYSQL/group/programmers_131529.sql)
 - [숫자 범위로 그룹화](https://coding-su.tistory.com/76)
-
-- [그룹 내 최댓값](https://github.com/AtomicLiquors/SQL_Test_Practice/blob/main/group/maximum_in_group.md)
 - [조건에 하나라도 해당하는 그룹](https://github.com/AtomicLiquors/SQL_Test_Practice/blob/main/group/atleast_one_in_group)
 
 <BR>
@@ -57,13 +56,18 @@ ORDER BY
     1;
 ```
 
+
+### HAVING절에선 SELECT ALIAS 사용 가능
+WHERE과 다르다.
+
+
 <br>
+
+## 그룹 함수
+- [그룹 내 최댓값](https://github.com/AtomicLiquors/SQL_Test_Practice/blob/main/group/maximum_in_group.md)
 
 ### 문자열 컬럼에서 MIN, MAX 사용하기
 SQL의 ```MIN()```과 ```MAX()```는 문자열을 사전순(lexicographically)으로 비교해 준다.
 - ```MIN(EMAIL)```은 ID별 그룹 내에서 가장 앞선 이메일 값을 선택한다.
 - ```MAX(CATEGORY) = "Front End"```는 CATEGORY 값 중 사전순으로 가장 큰 값이 "Front End"인지 확인한다.
 
-
-### HAVING절에선 SELECT ALIAS 사용 가능
-WHERE과 다르다.
