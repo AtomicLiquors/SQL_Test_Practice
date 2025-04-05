@@ -63,3 +63,7 @@ ORDER BY
 SQL의 ```MIN()```과 ```MAX()```는 문자열을 사전순(lexicographically)으로 비교해 준다.
 - ```MIN(EMAIL)```은 ID별 그룹 내에서 가장 앞선 이메일 값을 선택한다.
 - ```MAX(CATEGORY) = "Front End"```는 CATEGORY 값 중 사전순으로 가장 큰 값이 "Front End"인지 확인한다.
+
+
+### HAVING절에선 SELECT ALIAS 사용 가능
+WHERE과 다르다.
