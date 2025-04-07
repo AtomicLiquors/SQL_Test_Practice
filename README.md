@@ -4,6 +4,9 @@
 
 <BR>
 
+### JOIN과 GROUP BY 함께 사용 시 주의점
+[링크](https://github.com/AtomicLiquors/SQL_Test_Practice/blob/main/group/group_and_join.md)
+
 ### DISTINCT
 - **조건을 여러 개 충족해도 하나의 레코드만**
 - **중복되는 값(ID 등)을 하나씩만 표시하기**
