@@ -5,6 +5,12 @@
 
 <BR>
 
+
+### JOIN과 GROUP BY 함께 사용 시 주의점
+[링크](https://github.com/AtomicLiquors/SQL_Test_Practice/blob/main/group/group_and_join.md)
+
+<br>
+
 ### not functionally dependent on columns in GROUP BY clause
 문제가 되는 컬럼을 GROUP BY 조건에 추가해서 해결한다.
 [BEFORE]
