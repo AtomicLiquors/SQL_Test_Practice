@@ -76,4 +76,4 @@ WHERE과 다르다.
 SQL의 ```MIN()```과 ```MAX()```는 문자열을 사전순(lexicographically)으로 비교해 준다.
 - ```MIN(EMAIL)```은 ID별 그룹 내에서 가장 앞선 이메일 값을 선택한다.
 - ```MAX(CATEGORY) = "Front End"```는 CATEGORY 값 중 사전순으로 가장 큰 값이 "Front End"인지 확인한다.
-
+- [응용](https://shur.tistory.com/entry/SQL-%EA%B3%A0%EB%93%9D%EC%A0%90-Kit-GROUP-BY-%EC%96%B8%EC%96%B4%EB%B3%84-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EB%B6%84%EB%A5%98%ED%95%98%EA%B8%B0)
