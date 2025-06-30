@@ -1,20 +1,24 @@
 # 테스트 전 점검사항
-- [1. JOIN](#1-join)
-- [2. DISTINCT](#2-distinct)
-- [3. CASE WHEN](#3-case-when)
-- [4. 문자열 처리](#4-문자열-처리)
-- [5. COUNT-IF](#5-count-if)
-- [6. GROUP BY / HAVING](#6-group-by--having)
-- [7. ORDER BY](#7-order-by)
-- [8. LIKE](#8-like)
-- [9. WITH AS](#9-with-as)
-- [10. IN](#10-in)
-- [11. 임의의 데이터셋 생성](#11-임의의-데이터셋-생성)
-- [12. RECURSIVE 사용법](#12-recursive-사용법)
-- [13. 소수점 버림](#13-소수점-버림)
-- [14. SQL 팁 모음](#14-sql-팁-모음)
-- [15. Oracle 관련 내용](#15-oracle-관련-내용)
-- [16. TroubleShooting](#16-troubleshooting)
+
+| 목차 |
+|------|
+| [1. JOIN](#1-join) |
+| [2. DISTINCT](#2-distinct) |
+| [3. CASE WHEN](#3-case-when) |
+| [4. 문자열 처리](#4-문자열-처리) |
+| [5. COUNT-IF](#5-count-if) |
+| [6. GROUP BY / HAVING](#6-group-by--having) |
+| [7. ORDER BY](#7-order-by) |
+| [8. LIKE](#8-like) |
+| [9. WITH AS](#9-with-as) |
+| [10. IN](#10-in) |
+| [11. 임의의 데이터셋 생성](#11-임의의-데이터셋-생성) |
+| [12. RECURSIVE 사용법](#12-recursive-사용법) |
+| [13. 소수점 버림](#13-소수점-버림) |
+| [14. SQL 팁 모음](#14-sql-팁-모음) |
+| [15. Oracle 관련 내용](#15-oracle-관련-내용) |
+| [16. TroubleShooting](#16-troubleshooting) |
+
 
 ## 1. JOIN
 
